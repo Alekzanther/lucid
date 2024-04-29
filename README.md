@@ -1,6 +1,6 @@
-# OKR Trakr (Early Development)
+# Lucid (Early Development)
 
-OKR Trakr aims to be a powerful open-source OKR (Objectives and Key Results) tracking tool, designed to align OKRs with your overall company vision and mission.
+Lucid aims to be a powerful open-source OKR (Objectives and Key Results) tracking tool, designed to align OKRs with your overall company vision and mission.
 
 ## Vision
 
