@@ -21,3 +21,9 @@ This project is in its early stages. The core OKR functionality and foundation f
 * Design the minimal and intuitive UI
 * Explore additional integrations (Notion, Jira, etc.)
 * AI that gives feedback on Objectives, Key results, etc
+
+## TODO
+[ ] Setup DB
+[ ] Add auth
+[ ] Add basic UI for creating an OKR
+[ ] ... profit!
