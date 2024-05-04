@@ -18,17 +18,17 @@ import {
  */
 export const createTable = pgTableCreator((name) => `lucid_${name}`);
 
-export const posts = createTable(
-  "post",
+export const okrs = createTable(
+  "okr",
   {
     id: serial("id").primaryKey(),
-    name: varchar("name", { length: 256 }),
+    objective: varchar("objective", { length: 256 }),
     createdAt: timestamp("created_at")
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
-    updatedAt: timestamp("updatedAt"),
+    updatedAt: timestamp("updated_at"),
   },
   (example) => ({
-    nameIndex: index("name_idx").on(example.name),
+    nameIndex: index("name_idx").on(example.objective),
   })
 );
