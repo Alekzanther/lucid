@@ -1,7 +1,14 @@
 import "~/styles/globals.css";
 
 import { Inter } from "next/font/google";
-import { ClerkProvider, SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
+import {
+  ClerkProvider,
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  UserButton,
+} from "@clerk/nextjs";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -32,6 +39,7 @@ export default function RootLayout({
             </SignedIn>
           </header>
           {children}
+          <SpeedInsights />
         </body>
       </html>
     </ClerkProvider>

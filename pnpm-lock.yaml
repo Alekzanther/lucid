@@ -10,6 +10,7 @@ specifiers:
   '@types/react-dom': ^18.2.19
   '@typescript-eslint/eslint-plugin': ^7.1.1
   '@typescript-eslint/parser': ^7.1.1
+  '@vercel/speed-insights': ^1.0.10
   drizzle-kit: ^0.20.14
   drizzle-orm: ^0.29.4
   eslint: ^8.57.0
@@ -31,6 +32,7 @@ dependencies:
   '@clerk/nextjs': 5.0.5_qg2psbspnn7p75hghpnnh7sh5y
   '@sentry/nextjs': 7.113.0_next@14.2.3+react@18.2.0
   '@t3-oss/env-nextjs': 0.10.1_pidadb2d7x53ckykika3xcmfnm
+  '@vercel/speed-insights': 1.0.10_next@14.2.3+react@18.2.0
   drizzle-orm: 0.29.5_3anjtibqfbreuxhvkl7vwh4pbm
   next: 14.2.3_biqbaboplfbrettd7655fr4n2y
   postgres: 3.4.4
@@ -1354,6 +1356,34 @@ packages:
 
   /@ungap/structured-clone/1.2.0:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
+
+  /@vercel/speed-insights/1.0.10_next@14.2.3+react@18.2.0:
+    resolution: {integrity: sha512-4uzdKB0RW6Ff2FkzshzjZ+RlJfLPxgm/00i0XXgxfMPhwnnsk92YgtqsxT9OcPLdJUyVU1DqFlSWWjIQMPkh0g==}
+    requiresBuild: true
+    peerDependencies:
+      '@sveltejs/kit': ^1 || ^2
+      next: '>= 13'
+      react: ^18 || ^19
+      svelte: ^4
+      vue: ^3
+      vue-router: ^4
+    peerDependenciesMeta:
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      react:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
+      vue-router:
+        optional: true
+    dependencies:
+      next: 14.2.3_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+    dev: false
 
   /acorn-jsx/5.3.2_acorn@8.11.3:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
