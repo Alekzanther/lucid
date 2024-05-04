@@ -23,6 +23,7 @@ This project is in its early stages. The core OKR functionality and foundation f
 * AI that gives feedback on Objectives, Key results, etc
 
 ## TODO
+- [ ] Error management
 - [ ] Setup DB
 - [x] Add auth
 - [ ] Add basic UI for creating an OKR
